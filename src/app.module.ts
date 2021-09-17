@@ -21,7 +21,7 @@ import { Transaction } from './transactions/entities/transaction.entity';
       autoLoadModels: true,
       synchronize: true,
       sync: {
-        alter: true,
+        alter: true
       },
     }),    
     TransactionsModule
